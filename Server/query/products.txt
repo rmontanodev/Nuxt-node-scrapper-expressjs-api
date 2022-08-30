@@ -1,0 +1,1 @@
+create table productos(idprod int AUTO_INCREMENT PRIMARY KEY,sn varchar(255) UNIQUE KEY, modelo varchar(255)not null,marca varchar(255)not null,gamma varchar(255) not null)

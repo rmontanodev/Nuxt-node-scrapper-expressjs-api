@@ -1,0 +1,1 @@
+create table consumerprodalert(id int AUTO_INCREMENT PRIMARY KEY,idcons int,sn varchar(255),price varchar(255),CONSTRAINT FK_idcons FOREIGN KEY (idcons) REFERENCES customers(id),CONSTRAINT FK_sn FOREIGN KEY (sn) REFERENCES productos(sn))

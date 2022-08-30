@@ -1,0 +1,1 @@
+create table productos_precio(id int AUTO_INCREMENT PRIMARY KEY,idprod varchar(255),fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,price varchar(255),provedor varchar(255)not null,envioprice varchar(255),enviollegada varchar(255),reviews varchar(255), CONSTRAINT FK_idprod FOREIGN KEY (idprod) REFERENCES productos(sn))

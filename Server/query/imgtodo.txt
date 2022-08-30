@@ -1,0 +1,1 @@
+create table imgtodo(id int AUTO_INCREMENT PRIMARY KEY,sn varchar(255),imgtodo varchar(255),CONSTRAINT FK_snimg FOREIGN KEY (sn) REFERENCES productos(sn))
