@@ -1,3 +1,6 @@
 Server/credenciales
 node_modules/*
 Server/node_modules/*
+Nuxt-vuetify/node-modules/*
+*/credentials/*
+Crawlers/node-modules/*

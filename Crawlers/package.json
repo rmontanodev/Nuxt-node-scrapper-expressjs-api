@@ -1,0 +1,21 @@
+{
+  "name": "icrawler01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.0.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash.flatten": "^4.4.0",
+    "mysql": "^2.16.0",
+    "puppeteer": "^1.13.0",
+    "puppeteer-cluster": "^0.16.0",
+    "string-similarity": "^3.0.0"
+  }
+}
