@@ -6,3 +6,4 @@ Nuxt-vuetify/node-modules/*
 */credenciales/*
 Crawlers/node_modules/*
 Server/public/uploads/*
+Crawlers/InsertDB/credentials/*
